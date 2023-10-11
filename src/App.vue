@@ -1,9 +1,13 @@
 <script setup>
-import forcingmyself from './components/forcingmyself.vue';
+import Bod from './components/Bod.vue'
+import Head from './components/Head.vue'
+import Foot from './components/Foot.vue'
 </script>
 
 <template>
-  <forcingmyself/>
+  <Head/>
+  <Bod/>
+  <Foot/>
 </template>
 
 <style scoped>
